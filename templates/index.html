@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Sentinel | Dashboard</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside>
+       <div class="sidebar-brand">
+    <h2>🛡️ API Sentinel</h2>
+    <p>API Monitoring &amp; Diagnostics</p>
+</div>
+
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#check-api">Check API</a>
+            <a href="#history">API History</a>
+        </nav>
+
+        <p>Monitor. Diagnose. Improve.</p>
+    </aside>
+
+
+    <!-- Main Content -->
+    <main id="dashboard">
+
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Dashboard</h1>
+                <p>Monitor and understand your API performance.</p>
+            </div>
+
+            <span>Local Monitoring</span>
+        </header>
+
+
+        <!-- Overview Statistics -->
+        <section id="overview">
+            <h2>Overview</h2>
+
+            <div class="overview-cards">
+
+                <article>
+                    <h3>Total Tests</h3>
+                    <p id="total-tests">
+                        {{ overview.total_tests }}
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Successful Tests</h3>
+                    <p id="successful-tests">
+                        {{ overview.successful_tests }}
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Failed Checks</h3>
+                    <p id="failed-checks">
+                        {{ overview.failed_checks }}
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Average Response</h3>
+                    <p id="average-response">
+                        {{ "%.3f"|format(overview.average_response) }} s
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- API Checker -->
+        <section id="check-api">
+            <h2>Check an API</h2>
+
+            <p>
+                Enter a public API endpoint to check its status,
+                response time, and possible problems.
+            </p>
+
+            <form id="api-form">
+
+                <label for="api-url">API Endpoint URL</label>
+
+                <input
+                    type="url"
+                    id="api-url"
+                    name="api-url"
+                    placeholder="https://jsonplaceholder.typicode.com/posts/1"
+                    required
+                >
+
+                <button type="submit">Check API</button>
+
+            </form>
+
+
+            <!-- API Test Result -->
+            <div id="result-container" aria-live="polite">
+                <h3>Test Result</h3>
+
+                <p id="result-message">
+                    Enter an API URL and click Check API to see the result.
+                </p>
+
+                <div id="diagnosis-details">
+                    <p>
+                        <strong>Explanation:</strong>
+                        <span id="result-explanation">
+                            Your diagnosis will appear here.
+                        </span>
+                    </p>
+
+                    <p>
+                        <strong>Suggestion:</strong>
+                        <span id="result-suggestion">
+                            Helpful suggestions will appear here.
+                        </span>
+                    </p>
+
+                    <p>
+                        <strong>Performance:</strong>
+                        <span id="result-performance">
+                            Not tested yet.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- API History -->
+        <section id="history">
+            <h2>Recent API Tests</h2>
+
+            <p>Review the API checks you have performed.</p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>API Endpoint</th>
+                            <th>Status Code</th>
+                            <th>API Status</th>
+                            <th>Response Time</th>
+                            <th>Tested At</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="history-table-body">
+                        <tr>
+                            <td colspan="5">
+                                No tests to display yet.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                API Sentinel | Built with Python, Flask,
+                HTML, CSS and JavaScript
+            </p>
+        </footer>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

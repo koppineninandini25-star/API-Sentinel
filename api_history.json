@@ -1,0 +1,72 @@
+[
+    {
+        "url": "https://www.geeksforgeeks.org/?_gl=1*1ulvaqn*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1Gut74tLqMqt6MMN4a8GZ-H9omRAqG1NSt0pql9mXmZPoH6JL4TTcYaAiXaEALw_wcB&gbraid=0AAAAAC9yBkACnZomEq2znJzQlVaoIMio6",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 0.795,
+        "tested_at": "2026-10-16 14:59:27.539967"
+    },
+    {
+        "url": "https://www.google.com/search?q=geeks+for+geeks&rlz=1C1GCEA_enIN1171IN1171&oq=&gs_lcrp=EgZjaHJvbWUqCQgDEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgYIBxBFGEDSAQo4OTU0MThqMGo3qAIHsAIB8QVIffiaYeHOTfEFSH34mmHhzk0&sourceid=chrome&ie=UTF-8",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 0.809,
+        "tested_at": "2026-10-16 15:01:50.465328"
+    },
+    {
+        "url": "https://www.google.com/search?q=geeks+for+geeks&rlz=1C1GCEA_enIN1171IN1171&oq=&gs_lcrp=EgZjaHJvbWUqCQgDEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgYIBxBFGEDSAQo4OTU0MThqMGo3qAIHsAIB8QVIffiaYeHOTfEFSH34mmHhzk0&sourceid=chrome&ie=UTF-8",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 0.854,
+        "tested_at": "2026-10-16 15:03:46.771893"
+    },
+    {
+        "url": "https://www.geeksforgeeks.org/courses/Java-backend-live?source=google&medium=cpc&device=c&keyword=geeksforgeeks%20java&matchtype=b&campaignid=10445850397&adgroup=175940308275&gad_source=1&gad_campaignid=10445850397&gbraid=0AAAAAC9yBkDmJkS9JSeA1AGrbBIg2QUvw&gclid=CjwKCAjw_9bWBhBGEiwAomyTItGn6YYOt5nDc_g_IE0FdW3GE3iSlDRgdxQX0vKHeJlojxCsbr_KZhoCeusQAvD_BwE",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 5.92,
+        "tested_at": "2026-10-19 21:30:39.241172"
+    },
+    {
+        "url": "https://www.geeksforgeeks.org/courses/Java-backend-live?source=google&medium=cpc&device=c&keyword=geeksforgeeks%20java&matchtype=b&campaignid=10445850397&adgroup=175940308275&gad_source=1&gad_campaignid=10445850397&gbraid=0AAAAAC9yBkDmJkS9JSeA1AGrbBIg2QUvw&gclid=CjwKCAjw_9bWBhBGEiwAomyTIgrUB3vz6KK3S2wxDxLFGJ2mHTfWX3FrREtYuAj5_9-AOzhc7jCLaBoC2A4QAvD_BwE",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 1.029,
+        "tested_at": "2026-10-19 21:32:56.137604"
+    },
+    {
+        "url": "https://www.geeksforgeeks.org/courses/Java-backend-live?source=google&medium=cpc&device=c&keyword=geeksforgeeks%20java&matchtype=b&campaignid=10445850397&adgroup=175940308275&gad_source=1&gad_campaignid=10445850397&gbraid=0AAAAAC9yBkDmJkS9JSeA1AGrbBIg2QUvw&gclid=CjwKCAjw_9bWBhBGEiwAomyTIgrUB3vz6KK3S2wxDxLFGJ2mHTfWX3FrREtYuAj5_9-AOzhc7jCLaBoC2A4QAvD_BwE",
+        "status_code": 200,
+        "api_status": "UP",
+        "response_time": 1.015,
+        "tested_at": "2026-10-19 21:35:22.289441"
+    },
+    {
+        "url": "https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=geeksforgeeks&matchtype=b&campaignid=20039445781&adgroup=147845288105&gad_source=1&gad_campaignid=24351659972&gbraid=0AAAAAC9yBkCeRILPj8jNIHdh2ErQTT-Bl&gclid=CjwKCAjwotzWBhBFEiwA1JhPoJEwolXylyeyRs7hCAZI9r6FLJfCo8afZdDl0oSqbls9XFj0ZYzqORoCxzAQAvD_BwE",
+        "status_code": 200,
+        "api_status": "Success",
+        "response_time": 0.932,
+        "tested_at": "2026-10-20 13:39:37"
+    },
+    {
+        "url": "https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=geeksforgeeks&matchtype=b&campaignid=20039445781&adgroup=147845288105&gad_source=1&gad_campaignid=24351659972&gbraid=0AAAAAC9yBkCeRILPj8jNIHdh2ErQTT-Bl&gclid=CjwKCAjwotzWBhBFEiwA1JhPoJEwolXylyeyRs7hCAZI9r6FLJfCo8afZdDl0oSqbls9XFj0ZYzqORoCxzAQAvD_BwE",
+        "status_code": 200,
+        "api_status": "Success",
+        "response_time": 0.94,
+        "tested_at": "2026-10-20 13:41:08"
+    },
+    {
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "status_code": 200,
+        "api_status": "Success",
+        "response_time": 1.784,
+        "tested_at": "2026-10-20 13:43:08"
+    },
+    {
+        "url": "https://jsonplaceholder.typicode.com/invalid-endpoint",
+        "status_code": 404,
+        "api_status": "Not Found",
+        "response_time": 1.428,
+        "tested_at": "2026-10-20 13:43:32"
+    }
+]
